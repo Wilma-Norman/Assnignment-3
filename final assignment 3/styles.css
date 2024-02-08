@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #334749;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: #334749;
+    padding: 16px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    padding: 16px;
+    border-bottom: 1px solid #ffffcc;
+    margin-left: 30%;
+    margin-right: 30%;    
+    color: #ffffcc;
+}
+
+
+.wrapper-size {
+    height: 22,5vh;
+    background: linear-gradient(to right, #ff9966 0%, #ffffcc 85%);
+    border: 1px solid #ffffcc;
+    display: flex;
+}
+
+.main {
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.computer {
+    border: 1px solid black;
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+.player {
+    border: 1px solid black;
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+.buttons {
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.rock {
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.paper {
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.scissor {
+    border: 1px solid black;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.reset-button-wrapper {
+    justify-content: end;
+    padding-right: 10px;
+}
+
+.reset-button {
+    border: 1px solid black;
+    margin-bottom: 20px;    
+    background-color: #ff9966;
+}
+
+.info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.history {
+    border: 1px solid #ffffcc;
+    margin-bottom: 10px;  
+    padding: 10px;
+}
+
+.info-rules {
+    border: 1px solid #ffffcc;
+    font-size: 1rem;  
+    padding: 10px; 
+}
+
+
+@media screen and (min-width: 1003px) {
+      
+    .main.wrapper-size {
+        padding: 40px;
+        background: linear-gradient(to right, #ff9966 0%, #ffffcc 85%);
+    }
+
+    .buttons {
+        padding: 25px;
+        justify-content: center;
+    }
+
+    .rock {
+        margin: 5px;
+    }
+
+    .paper {
+        margin: 5px;
+    }
+
+    .scissor {
+        margin: 5px;
+    }
+
+    .reset-button {
+        margin-bottom: 30px;
+        font-size: 20px;
+        background-color: #ff9966;
+    }  
+
+    .buttons.wrapper-size {
+        background: linear-gradient(to right, #ff9966 0%, #ffffcc 85%);
+    }
+
+    .reset-button-wrapper.wrapper-size {
+        background: linear-gradient(to right, #ff9966 0%, #ffffcc 85%);
+    }
+
+    .info.wrapper-size {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: linear-gradient(to right, #ff9966 0%, #ffffcc 85%);
+    }
+
+    .history {
+        margin: 20px;
+        font-size: 1.5rem;
+    }
+
+    .info-rules {
+        margin: 20px;
+        font-size: 1.5rem;
+    }
+    
+}
